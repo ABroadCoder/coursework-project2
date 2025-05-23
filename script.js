@@ -9,6 +9,7 @@ const current0El = document.getElementById('current--0');
 const current1El = document.getElementById('current--1');
 const diceEl = document.querySelector('.dice');
 const buttonNew = document.querySelector('.btn--new');
+const buttonRules = document.querySelector('.btn--rules');
 const buttonRoll = document.querySelector('.btn--roll');
 const buttonHold = document.querySelector('.btn--hold');
 
@@ -47,6 +48,17 @@ const switchPlayer = function () {
   player0El.classList.toggle('player--active');
   player1El.classList.toggle('player--active');
 };
+
+// Display/hide rules
+buttonRules.addEventListener('click', function () {
+  if (buttonRules.classList.contains('hidden') {
+    buttonRules.classList.remove('hidden');
+  } 
+  
+  else {
+    buttonRules.classList.add('hidden');
+  }
+}
 
 // Rolling dice functionality
 buttonRoll.addEventListener('click', function () {
