@@ -12,6 +12,7 @@ const buttonNew = document.querySelector('.btn--new');
 const buttonRules = document.querySelector('.btn--rules');
 const buttonRoll = document.querySelector('.btn--roll');
 const buttonHold = document.querySelector('.btn--hold');
+const rulesText = document.querySelector('header');
 
 let scores, currentScore, activePlayer, playing;
 
@@ -51,12 +52,12 @@ const switchPlayer = function () {
 
 // Display/hide rules
 buttonRules.addEventListener('click', function () {
-  if (buttonRules.classList.contains('hidden') {
-    buttonRules.classList.remove('hidden');
+  if (rulesText.classList.contains('hidden') {
+    rulesText.classList.remove('hidden');
   } 
   
   else {
-    buttonRules.classList.add('hidden');
+    rulesText.classList.add('hidden');
   }
 }
 
