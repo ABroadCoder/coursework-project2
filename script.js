@@ -59,7 +59,7 @@ buttonRules.addEventListener('click', function () {
   else {
     rulesText.classList.add('hidden');
   }
-}
+});
 
 // Rolling dice functionality
 buttonRoll.addEventListener('click', function () {
