@@ -52,7 +52,7 @@ const switchPlayer = function () {
 
 // Display/hide rules
 buttonRules.addEventListener('click', function () {
-  if (rulesText.classList.contains('hidden') {
+  if (rulesText.classList.contains('hidden')) {
     rulesText.classList.remove('hidden');
   } 
   
